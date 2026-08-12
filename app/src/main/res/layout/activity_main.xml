@@ -12,7 +12,7 @@
         android:id="@+id/imagem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_gravity="center_horizontal"
         android:src="@android:drawable/btn_star_big_off"
         />
 
@@ -20,8 +20,16 @@
         android:id="@+id/btOnOff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_gravity="center_horizontal"
         android:text="On/Off"
+        />
+
+    <Button
+        android:id="@+id/btConfiguracoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Configurações..."
         />
 
 
